@@ -1,0 +1,104 @@
+body {
+    margin:5.5px;
+}
+
+main {
+    display:flex
+}
+
+section {
+    margin-top: 10.5px
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.search-console{
+    width: 25%;
+    margin: 10px 20px 0 10px;
+    padding: 10px 0 10px 10px;
+    background-color: #dcdcdc;
+}
+
+.search-button-pack{
+    margin-left: -52px;
+}
+
+.city-list-pack {
+    margin-top: 5px;
+}
+
+.city-name {
+    width: 89%
+}
+
+.results-console {
+    width: 75%;
+    padding-bottom: 10px;
+    visibility: hiddin;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.current-situations-console {
+    border: 1px solid #c0c0c0;
+    border-right: none;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.name-bar,
+.uv-index-element {
+    display: flex;
+    align-items:center;
+}
+
+#uv-marker {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.forecast-console {
+    padding-top: 50px;
+}
+
+.container {
+    display: inline;
+}
+
+.card-header,
+.card-figure {
+    text-align: center;
+}
+
+.card-header {
+    background-color: blue;
+    color: white;
+}
+
+.card-figure {
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 570px) {
+.search-console{
+    width: 40%;
+}    
+.search-button-pack {
+    margin-left: 0px;
+}
+
+.search-console h3 {
+    font-size: 15px;
+}
+.form-line {
+    display: block;
+    text-align: center;
+}
+
+.results-console {
+    width: 60%;
+    }
+}
+
