@@ -34,7 +34,7 @@ function loadSearchHistory() {
         };
     } else {
 
-        //insert search history buttons to page
+        //insert search history buttons to pages
         for (var i = 0; i < searchingHistoryArray.searchedCity.length; i++) {
             searchHistory(searchingHistoryArray.searchedCity[i]);
         }
