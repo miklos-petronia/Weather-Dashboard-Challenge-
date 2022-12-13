@@ -1,5 +1,7 @@
+
+
 var ApiKey = '26ba3a7e283acb9cd1e8665c6c3b319a';
-var CallUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat='
+var CallUrl = 'https://api.openweathermap.org/data/2.5/onecall?lat=';
 var CoordinatesUrl = 'https://api.openweathermap.org/data/2.5/weather?q=';
 var pillar2El = $('.pillar2');
 var enduserFormEL = $('#city-search');
