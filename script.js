@@ -7,7 +7,7 @@ var fiveDayEl = $('#five-day');
 var cityInsertEl = $('#city');
 var presentDay = moment().format('M/DD/YYYY');
 var searchingHistoryEl = $('#search-history');
-const weatherIconUrl = 'http://openweathermap.org/img/wn/';
+const weatherUrl = 'http://openweathermap.org/img/wn/';
 var searchingHistoryArray = loadSearchHistory();
 
 // Capitalize the 1st letter of the string
@@ -96,7 +96,7 @@ function acquireWeather(city) {
 
  // Retrieve the weather icon from metrapolies
     var weatherIcon = weatherData.current.weather[0].icon;
-    var cityCurrentWeatherIcon = weatherIconUrl + weatherIcon + '.png';
+    var cityCurrentWeatherIcon = weatherUrl + weatherIcon + '.png';
 
     // Develop h2 to illustrate metrapolies + present day + present  weather icon
     var currentWeatherHeadingEl = $('<h2>')
@@ -186,7 +186,7 @@ var forecastIcon = weatherData.daily[i].weather[0].icon;
 
 var forecastIconEl = $('<img>')
 .attr({
-src: weatherIconUrl + forecastIcon + '.png',
+src: weatherUrl + forecastIcon + '.png',
 alt: 'Weather Icon'
 });
 
