@@ -136,24 +136,24 @@ ul {
 
 /* style the icon */
 #present-weather-icon {
-    filter: drop-shadow(0 0 0.75rem grey);
+    filter: drop-shadow(0 0 0.75rem rgb(99, 99, 99));
 }
 
 /* style the uv index background */
 .approving {
-    background-color: green;
+    background-color: rgb(8, 128, 8);
     font-size: 2rem;
     border-radius: .5rem;
 }
 
 .modest {
-    background-color: yellow;
+    background-color: rgb(255, 242, 0);
     font-size: 2rem;
     border-radius: .5rem;
 }
 
 .extreme {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     font-size: 2rem;
     border-radius: .5rem;
 }
@@ -260,10 +260,10 @@ p {
     }
 }
 
-/* // Large devices (desktops, 992px and up) */
+
 @media (max-width: 992px) {}
 
-/* // Medium devices (tablets, 768px and up) */
+
 @media (max-width: 768px) {
     .pillar1 {
         width: 100%;
@@ -279,7 +279,7 @@ p {
 
 }
 
-/* // Small devices (landscape phones, 630px and up) */
+
 @media (max-width: 640px) {
 
     #present-weather {
