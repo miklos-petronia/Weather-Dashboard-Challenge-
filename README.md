@@ -5,6 +5,10 @@ My challenge was to create a weather dashboard that will run in the browser and 
 ## Technologies used
 The technologies for challange was HTML, CSS, javascript and API's. 
 
+## Screenshot
+![image](https://user-images.githubusercontent.com/113649566/207418367-e3c5492d-ac63-4be0-aee5-54c539d2902f.png)
+
+
 ## User Story
 AS A traveler
 I WANT to see the weather outlook for multiple cities
